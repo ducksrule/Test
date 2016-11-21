@@ -18,8 +18,6 @@ struct things {
 
 
 int main() {
-	
-	//Creating new struct
 	things makeChanges;
 
 	cout << "This is my change" << endl;
