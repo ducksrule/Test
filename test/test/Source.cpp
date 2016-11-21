@@ -2,6 +2,14 @@
 
 using namespace std;
 
+struct Ducky{
+	string mall = "mallard";
+	string buff = "bufflehead";
+	string north = "northern shoveler";
+	string northp = "northern pintail";
+};
+
+
 int main() {
 	cout << "This is my change" << endl;
 
@@ -14,5 +22,21 @@ int main() {
 int duckyFunction() {
 
 	//do stuff
+	cout << "We got a duck!"
 	return 1;
 }
+
+/*
+  .-~~~~-.
+ {  o     }
+ /       /
+`--r'   {    ,___.-',
+  /      `-~         ',
+ {                    '
+  \                  /
+   \                /
+  ~ ~~~~~~~~~~~~~~~~~ ~
+ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+     ~ ~ ~ ~ ~ ~ ~ ~
+	 */
