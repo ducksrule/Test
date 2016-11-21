@@ -10,11 +10,19 @@ struct Ducky{
 	
 };
 
+struct things {
+	int stuff;
+	double thoseThings;
+	Ducky ducksEverywhere;
+};
+
 
 int main() {
+	
+	//Creating new struct
+	things makeChanges;
+
 	cout << "This is my change" << endl;
-
-
 	int getDucky = duckyFunction();
 
 	return 0;
