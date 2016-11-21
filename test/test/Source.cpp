@@ -36,6 +36,12 @@ int duckyFunction() {
 	cout << " ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~" << endl;
 	cout << "  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~" << endl;
 	cout << "     ~ ~ ~ ~ ~ ~ ~ ~" << endl;
+
+	//ducky
+	cout << "\n\n\n Types of ducks!" << endl;
+	Ducky duck;
+	printf("%s, %s, %s, %s and %s", duck.mall, duck.buff, duck.north, duck.northp);
+	//cout << duck.mall << endl << duck.buff << endl << duck.north << endl << duck.northp << endl;
 	return 1;
 }
 
