@@ -7,6 +7,7 @@ struct Ducky{
 	string buff = "bufflehead";
 	string north = "northern shoveler";
 	string northp = "northern pintail";
+	
 };
 
 
@@ -22,7 +23,19 @@ int main() {
 int duckyFunction() {
 
 	//do stuff
-	cout << "We got a duck!"
+	cout << "We got a duck!" << endl << endl;
+	cout << "  .-~~~~-." << endl;
+	cout << " {  o     }" << endl;
+	cout << " /       /" << endl;
+	cout << "`--r'   {    ,___.-'," << endl;
+	cout << "  /      `-~         '," << endl;
+	cout << " {                    '" << endl;
+	cout << "  \                  /" << endl;
+	cout << "   \                /" << endl;
+	cout << "  ~ ~~~~~~~~~~~~~~~~~ ~" << endl;
+	cout << " ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~" << endl;
+	cout << "  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~" << endl;
+	cout << "     ~ ~ ~ ~ ~ ~ ~ ~" << endl;
 	return 1;
 }
 
